@@ -1,0 +1,83 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  background-color: black;
+}
+.container {
+  display: flex; 
+  margin: 0;
+  
+}
+
+.left-column {
+ flex: 0 0 20%; 
+  height: 100vh; 
+  padding: 20px;
+  background-color: black; 
+  border-right: 5px solid aliceblue;
+}
+
+.right-column {
+   height: 100vh;
+  flex: 1;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.previous-note{
+ background-color:black;
+  padding: 20px;
+  min-height: 50px;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+  border-bottom: 2px solid aliceblue;
+}
+
+.button {
+  border:none;
+  background: red;
+  width: 200px;
+  height: 40px;
+ font-size:medium;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+.input-title {
+  border:none;
+  border-radius: 0%;
+  background-color: grey;
+  height: 50px;
+  width: 96%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative; 
+  top: 20px;
+  overflow-y: scroll;
+}
+
+.input-form{
+  border: none;
+  border-radius: 0%;
+  background-color: grey;
+  height: 200px;
+  width: 96%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  text-align: left;
+  overflow-y: scroll; /* si le contenu déborde de la hauteur de la div */
+  padding: 20px;
+  position: relative; /* Utilisez position relative */
+  top: 20px;
+  overflow-y: scroll;
+
+}
+  
+
